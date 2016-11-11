@@ -12,6 +12,7 @@
 		3456D2021DD6033E00AD7C70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3456D1FE1DD6033E00AD7C70 /* Main.storyboard */; };
 		3456D2031DD6033E00AD7C70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3456D1FF1DD6033E00AD7C70 /* Assets.xcassets */; };
 		3456D2041DD6033E00AD7C70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3456D2011DD6033E00AD7C70 /* LaunchScreen.storyboard */; };
+		3456D2061DD60C6200AD7C70 /* TodoItemsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3456D2051DD60C6200AD7C70 /* TodoItemsTableViewCell.swift */; };
 		4DB25AB71DD5FD9B004601C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB25AB61DD5FD9B004601C9 /* AppDelegate.swift */; };
 		502C046F1D87D9580032B7F3 /* ToDoListSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502C046E1D87D9580032B7F3 /* ToDoListSerializer.swift */; };
 		502C04711D87D9660032B7F3 /* ToDoListSerializerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502C04701D87D9660032B7F3 /* ToDoListSerializerTests.swift */; };
@@ -109,6 +110,7 @@
 		3456D1FD1DD6033E00AD7C70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3456D1FF1DD6033E00AD7C70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../ReSwift-Todo-UI/ReSwift-Todo-UI/Assets.xcassets"; sourceTree = "<group>"; };
 		3456D2001DD6033E00AD7C70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3456D2051DD60C6200AD7C70 /* TodoItemsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoItemsTableViewCell.swift; sourceTree = "<group>"; };
 		4DB25AB41DD5FD9B004601C9 /* ReSwift-Todo-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReSwift-Todo-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DB25AB61DD5FD9B004601C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DB25AC21DD5FD9B004601C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -213,6 +215,7 @@
 				4DB25AB61DD5FD9B004601C9 /* AppDelegate.swift */,
 				3456D1F91DD6031600AD7C70 /* ToDoListViewController.swift */,
 				3456D1FA1DD6031600AD7C70 /* TodoItemsViewController.swift */,
+				3456D2051DD60C6200AD7C70 /* TodoItemsTableViewCell.swift */,
 				3456D1FE1DD6033E00AD7C70 /* Main.storyboard */,
 				3456D1FF1DD6033E00AD7C70 /* Assets.xcassets */,
 				3456D2011DD6033E00AD7C70 /* LaunchScreen.storyboard */,
@@ -619,6 +622,7 @@
 			files = (
 				3456D1FC1DD6031600AD7C70 /* TodoItemsViewController.swift in Sources */,
 				3456D1FB1DD6031600AD7C70 /* ToDoListViewController.swift in Sources */,
+				3456D2061DD60C6200AD7C70 /* TodoItemsTableViewCell.swift in Sources */,
 				4DB25AB71DD5FD9B004601C9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
